@@ -1,1 +1,93 @@
-uhrack on this work
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>uhrack songs</title></head>
+        <body>
+            <header><h1  style="font-size: 60px;">UHRACK SONGS 2024</h1></header>
+        <main>
+            <table>
+                
+                    <tr>
+                        <ul style="list-style-type:armenian;">
+                         <td><li><a href="ballon.html"><button id="btn" style="font-size: large;" onclick="baloon"  >uhrack_soundman_baloon</button>
+                         </a></li></td>
+                </tr> 
+                <tr>
+                   <td><li><a href="idontcare.html"><button id="btn" style="font-size: large;" onclick="idontcare" >uhrack_feat_azee-idont_care</button></a></li></td>
+                   
+                </tr>
+                <tr>
+                    <td><li><a href="enjoyment.html"><button id="btn" style="font-size: large;" onclick="enjoyment" >uhrack_enjoyment</button></a></li> </td> 
+                
+            
+                </tr>
+                <tr>
+                    <td><li><a href="fire.html"><button id="btn" style="font-size: large;"  onclick="fire">uhrack_feat_soudman_firefire</button></a></li></td>
+                
+                </ul> </tr>
+            </table>
+        </main>
+   
+        </body>
+        <footer>
+            <div id="connect" style="font-size: large;"><h2>connect wit us</h2>
+                <a href="https://wa.me/qr/GYPRU2TFPQUI1"> <input type="button" value="whatsapp" onclick="whatsapp" id="whatsap1" ></a><br>
+                <a href="https://www.instagram.com/real_uhrack01/"> <input type="button"   value="instagram" onclick="instagram" id="instagram1"></a><br>
+                 <a href="https:www.facebook.com/real_uhrack"> <input type="button" value="facebook"  onclick="facebook" id="facebook1"></a>
+                </div>
+                <div id="contact" style="font-size: large;"><h2>contact us @</h2>
+               <ul>
+                <li> uhrack1@gmail.com</li>
+                <li>uhrack1@iclod.com</li>
+                <li>08164508258</li>
+               </ul> </div>
+               <div id="about"> <h2>abouts</h2>
+            <a href="about.html"><button id="btn" style="font-size: large;">about us</button></a></div>
+   
+        </footer>
+</html>
+<style>
+    input {
+        border-radius: 45%;
+    }
+    #whatsap1 {
+        background-color: darkgreen;
+    }
+    #instagram1 {
+        background-color: indianred;
+    }
+    #facebook1 {
+        background-color: blue;
+    }
+    footer {
+        display: flex;
+        justify-content : space-between;
+       
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+        background: linear-gradient( black , grey);
+    }
+    header {
+        background: linear-gradient(black , grey);
+        text-align : center;
+    }
+    body {
+        background-color: dimgray;
+    }
+    #btn { border: none;
+        background: none;
+    }
+#contact {
+ 
+ width:fit-content;
+}    
+#connect {
+    
+    width: fit-content;
+}
+</style>
